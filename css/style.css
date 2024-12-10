@@ -72,3 +72,23 @@ form > .d-flex {
     justify-content: space-evenly;
 }
 
+.hidden {
+    display: none;
+}
+
+#ticket > div {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#ticket .d-flex {
+    justify-content: space-between;
+}
+
+#ticket .d-flex div:first-child {
+    background-color: #757575;
+}
+
+#ticket .d-flex div {
+    padding: 15px;
+}
