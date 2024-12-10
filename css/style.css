@@ -1,6 +1,74 @@
 /* RESET */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+
+/* TIPOGRAPHY */
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+label {
+    padding-bottom: 10px;
+    color: #b91547;
+}
+
+
+/* BUTTON */
+
+.btn {
+    color: #b91547;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+
+/* GENERAL */
+
+body {
+    background-color: #b91547;
+}
+
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form > .d-flex {
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.f-col {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.row {
+    justify-content: space-evenly;
+}
+
