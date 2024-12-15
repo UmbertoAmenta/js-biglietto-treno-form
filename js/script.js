@@ -1,6 +1,7 @@
 // DOM ELEMENTS
 // Form
 const formDom = document.getElementById("form")
+const resetDom = document.getElementById("reset")
 
 // Fields
 const fullNameFormDom = document.getElementById("fullName")
@@ -46,4 +47,8 @@ formDom.addEventListener("submit", function(event) {
     let cpCOde = getRandomNumber(10000, 99999)
     cpCodeDom.innerHTML = cpCOde
     
+})
+
+resetDom.addEventListener("click", function() {
+    ticketDom.classList.add("hidden")
 })
